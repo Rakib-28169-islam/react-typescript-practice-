@@ -6,6 +6,7 @@ import UserForm from './components/UserForm'
 import UserData from './components/UserData'
 import IncrementDecrement from './components/IncrementDecrement'
 import {IncrementDecrementContextProvider} from './contextApi/UserContextProvider'
+import FetchData from './useEffect/FetchData'
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -29,6 +30,7 @@ function App() {
 
       </UserContextProvider>
 
+       <FetchData />
 
     </>
   )
