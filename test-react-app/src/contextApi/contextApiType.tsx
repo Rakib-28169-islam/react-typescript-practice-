@@ -13,3 +13,8 @@ export type contextProviderType ={
     children:ReactNode
 
 }
+export type incrementDecrementType ={
+    count:number,
+    increment:()=>void,
+    decrement:()=>void
+}

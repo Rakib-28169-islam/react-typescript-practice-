@@ -28,8 +28,8 @@ const UserForm = () => {
     return (
         <div>
             <form onSubmit={handleForm}>
-                <input type="text" name="name" ref={name} />
-                <input type="email" name="email" ref={email} />
+                <input type="text" name="name" ref={name} placeholder='name' /><br />
+                <input type="email" name="email" ref={email}  placeholder='email' /><br />
                 <button type="submit">Submit</button>
             </form>
             
